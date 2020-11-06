@@ -1,0 +1,13 @@
+prefix GDPR: <http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#>
+prefix HM: <http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#>
+prefix VMO: <http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#>
+
+#select all links to Fairness principle
+
+SELECT *
+WHERE {
+  ?link VMO:toHumanValue  ?human_value .
+  ?link		VMO:fromPrinciple ?principle .
+  ?link		VMO:denotedLink_PV ?link_type .
+  
+}

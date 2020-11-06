@@ -1,0 +1,5 @@
+@prefix : <http://example.org/book/>
+:book1 :price 9 ; :sold 100 .
+:book2 :price 5 ; :sold 100 .
+:book3 :price 6 ; :sold 40 .
+:book4 :price 8 ; :sold 50 .

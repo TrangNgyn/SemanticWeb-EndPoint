@@ -1,0 +1,2385 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology"
+     xml:base="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:GDPROntology="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#"
+     xmlns:ValuesMapOntology="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#denotedLink_RP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#denotedLink_RP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_LinkTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#fromSubProvision -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#fromSubProvision">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#ofRightCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#ofRightCategory">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#toPrinciple -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#toPrinciple">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#denotedLink_PV -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#denotedLink_PV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_LinkTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#fromPrinciple -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#fromPrinciple">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#toHumanValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#toHumanValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#explainedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#explainedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#principleName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#principleName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#rightName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#rightName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#subprovisionName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#subprovisionName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#linkName_RP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#linkName_RP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_LinkTypes"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Derived Link</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Direct Link</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#linkName_VP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#linkName_VP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_LinkTypes"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Derived Link</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Direct Link</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#itemName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#itemName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#valueName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#valueName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_LinkTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_LinkTypes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_LinkTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_LinkTypes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <rdfs:comment>Schwartz&apos;s Human Values</rdfs:comment>
+        <rdfs:label>Human Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem">
+        <rdfs:label>Value Item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+        <GDPROntology:principleName>Accuracy</GDPROntology:principleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Data_Minimization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Data_Minimization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+        <GDPROntology:principleName>Data Minimization</GDPROntology:principleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_LinkTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_LinkTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+        <GDPROntology:principleName>Fairness</GDPROntology:principleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Integrity_and_Confidentiality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Integrity_and_Confidentiality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+        <GDPROntology:principleName>Integrity and Confidentiality</GDPROntology:principleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+        <GDPROntology:principleName>Lawfulness</GDPROntology:principleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Access -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Access">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>Right of access overall</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_object"/>
+        <GDPROntology:subprovisionName>Right to object overall</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Rectification -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Rectification">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_rectification"/>
+        <GDPROntology:subprovisionName>Right to Rectification overall</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_transparency"/>
+        <GDPROntology:subprovisionName>Right to transparency overall</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_automated-decision -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_automated-decision">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Rights_over_automated_decisions"/>
+        <GDPROntology:subprovisionName>Right over automated decision overall</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_basic_info -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_basic_info">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_basic_information_about_processing"/>
+        <GDPROntology:subprovisionName>Right to basic information about processing overall</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_erasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_erasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_erasure"/>
+        <GDPROntology:subprovisionName>Right to erasure overall</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_portability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_portability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_data_portability"/>
+        <GDPROntology:subprovisionName>Right to data portability overall</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_restrict-processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_restrict-processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_restrict_processing"/>
+        <GDPROntology:subprovisionName>Right to restrict processing overall</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+        <GDPROntology:principleName>Purpose Limitation</GDPROntology:principleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_basic_information_about_processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_basic_information_about_processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_data_portability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_data_portability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_erasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_erasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_rectification -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_rectification">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_restrict_processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_restrict_processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Rights_over_automated_decisions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Rights_over_automated_decisions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+        <GDPROntology:principleName>Storage Limitation</GDPROntology:principleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#GDPR_Principles"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#intelligible"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+        <GDPROntology:principleName>Transparency</GDPROntology:principleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_categories-of-recipients_integrity-and-confidentiality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_categories-of-recipients_integrity-and-confidentiality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#categories_of_recipients_of_data"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Integrity_and_Confidentiality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_categories-of-recipients_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_categories-of-recipients_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#categories_of_recipients_of_data"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_data-categories_data-minimization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_data-categories_data-minimization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#categories_of_processed_data"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Data_Minimization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_existence-of-rights_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_existence-of-rights_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#existence_of_rights"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_influential-automated-processing_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_influential-automated-processing_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated_processing_affecting_data_subject"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_influential-automated-processing_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_influential-automated-processing_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated_processing_affecting_data_subject"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_info-about-perocessing_purpose-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_info-about-perocessing_purpose-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#info_about_processing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_no-charge-levied_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_no-charge-levied_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#no_charges_levied"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_no-charge-levied_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_no-charge-levied_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#no_charges_levied"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_overall_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_overall_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Access"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_overall_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_overall_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Access"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_source-of-data_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_source-of-data_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#source_of_data"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_source-of-data_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_source-of-data_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#source_of_data"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_storage-period_storage-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_storage-period_storage-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#storage_period"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_where-data-processed_storage-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_where-data-processed_storage-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data_processing_location"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_where-data-processed_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#access_where-data-processed_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data_processing_location"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated-decision_overall_accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated-decision_overall_accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_automated-decision"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated-decision_overall_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated-decision_overall_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_automated-decision"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated-decision_overall_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated-decision_overall_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_automated-decision"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated-decision_overall_purpose-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated-decision_overall_purpose-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_automated-decision"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated_processing_affecting_data_subject -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#automated_processing_affecting_data_subject">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>Automated processing with significant effects on data subject</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_overall_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_overall_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_basic_info"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_overall_purpose-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_overall_purpose-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_basic_info"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_overall_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_overall_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_basic_info"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_third-party-info_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_third-party-info_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#information_about_third_parties"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_third-party-info_integrity-and-confidentiality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_third-party-info_integrity-and-confidentiality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#information_about_third_parties"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Integrity_and_Confidentiality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_third-party-info_storage-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_third-party-info_storage-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#information_about_third_parties"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_third-party-info_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#basic-info_third-party-info_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#information_about_third_parties"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#categories_of_processed_data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#categories_of_processed_data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>Categories of data being processed</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#categories_of_recipients_of_data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#categories_of_recipients_of_data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>Categories of recipients data is shared with</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#common_format -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#common_format">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_data_portability"/>
+        <GDPROntology:subprovisionName>Should be in commonly used format</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#concise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#concise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_transparency"/>
+        <GDPROntology:subprovisionName>concise</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#copy_of_personal_data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#copy_of_personal_data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_data_portability"/>
+        <GDPROntology:subprovisionName>Provide a copy of Personal Data</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_common-format_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_common-format_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#common_format"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_copy-personal-data_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_copy-personal-data_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#copy_of_personal_data"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_machine-readable_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_machine-readable_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#machine_readable"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_overall_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_overall_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_portability"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_structured_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_structured_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#structured"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_support-reuse_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data-portability_support-reuse_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#support_reuse"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data_not_for_original_purpose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data_not_for_original_purpose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_restrict_processing"/>
+        <GDPROntology:subprovisionName>Data is no longer needed for the original purpose</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data_processing_location -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data_processing_location">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>If and where Controller is processing data</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#easily_accessible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#easily_accessible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_transparency"/>
+        <GDPROntology:subprovisionName>easily accessible</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erase_if_not_for_original_purpose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erase_if_not_for_original_purpose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_erasure"/>
+        <GDPROntology:subprovisionName>Erase when the data is not needed for the original purposes</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erase_when_consent_withdrawn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erase_when_consent_withdrawn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_erasure"/>
+        <GDPROntology:subprovisionName>Erase the data when consent is withdrawn</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_data-not-for-original-purposes_purpose-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_data-not-for-original-purposes_purpose-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erase_if_not_for_original_purpose"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_data-not-for-original-purposes_storage-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_data-not-for-original-purposes_storage-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erase_if_not_for_original_purpose"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_erase-dissent_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_erase-dissent_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erase_when_consent_withdrawn"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_erase-dissent_storage-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_erase-dissent_storage-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erase_when_consent_withdrawn"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_overall_purpose-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_overall_purpose-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_erasure"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_overall_storage-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#erasure_overall_storage-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_erasure"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#existence_of_rights -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#existence_of_rights">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>Existence of Rights</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#info_about_processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#info_about_processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>Information about Processing</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#information_about_third_parties -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#information_about_third_parties">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_basic_information_about_processing"/>
+        <GDPROntology:subprovisionName>Information about Third Parties</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#intelligible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#intelligible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_transparency"/>
+        <GDPROntology:subprovisionName>intelligible</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#machine_readable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#machine_readable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_data_portability"/>
+        <GDPROntology:subprovisionName>Should be machine readable</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#no_charges_levied -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#no_charges_levied">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>No charges levied</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#obejct_to-processing_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#obejct_to-processing_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to_processing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_direct-marketing_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_direct-marketing_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to_direct_marketing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_direct-marketing_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_direct-marketing_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to_direct_marketing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_direct-marketing_purpose-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_direct-marketing_purpose-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to_direct_marketing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_overall_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_overall_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Object"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_overall_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_overall_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_portability"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to-processing_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to-processing_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to_processing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to_direct_marketing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to_direct_marketing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_object"/>
+        <GDPROntology:subprovisionName>Object to direct marketing</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to_processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#object_to_processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_object"/>
+        <GDPROntology:subprovisionName>Object to procesing of data</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#rectification_overall_accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#rectification_overall_accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Rectification"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-procesing_overall_accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-procesing_overall_accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_restrict-processing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_accuracy-contested_accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_accuracy-contested_accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#when_accuracy_is_contested"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_data-not-for-original-purpose_purpose-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_data-not-for-original-purpose_purpose-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#data_not_for_original_purpose"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_overall_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_overall_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_restrict-processing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_overall_purpose-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_overall_purpose-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_restrict-processing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_unlawful-processing_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#restrict-processing_unlawful-processing_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#unlawful_processing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#source_of_data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#source_of_data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>Source of Data</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#storage_period -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#storage_period">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_of_access"/>
+        <GDPROntology:subprovisionName>Storage period</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#structured -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#structured">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_data_portability"/>
+        <GDPROntology:subprovisionName>Should be structured</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#support_reuse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#support_reuse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_data_portability"/>
+        <GDPROntology:subprovisionName>Should support reuse</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_concise_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_concise_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#concise"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_easily-accessible_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_easily-accessible_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#easily_accessible"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_easily-accessible_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_easily-accessible_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#easily_accessible"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_intelligible_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_intelligible_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_overall_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_overall_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Overall_Transparency"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_transparent_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparency_transparent_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right-Principle_Link"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:fromSubProvision rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparent"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#transparent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_transparency"/>
+        <GDPROntology:subprovisionName>transparency</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#unlawful_processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#unlawful_processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:denotedLink_RP rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_restrict_processing"/>
+        <GDPROntology:toPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+        <GDPROntology:subprovisionName>Processing is unlawful</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#when_accuracy_is_contested -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#when_accuracy_is_contested">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#SubProvisions"/>
+        <GDPROntology:ofRightCategory rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Right_to_restrict_processing"/>
+        <GDPROntology:subprovisionName>When accuracy is contested</GDPROntology:subprovisionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Achievement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Achievement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#ambitious/aspiring"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#capable/competent"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#influential/having_an_impact_on_people_and_events"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#successful/achieving_goals"/>
+        <untitled-ontology-8:description>Success according to social standards</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Achievement</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Face -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Face">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#preserving_public_image/maintaining_face"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_recognition/respect"/>
+        <untitled-ontology-8:description>Maintaining ones public image and avoiding humiliation</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Face</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Hedonism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Hedonism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#pleasure"/>
+        <untitled-ontology-8:description>Pleasure and sensuous gratification</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Hedonism</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Humility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Humility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#accepting_my_portion/submitting_to_lifes_circumstances"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#humble/modest/self-effacing"/>
+        <untitled-ontology-8:description>Recognizing one’s insignificance in the larger scheme of things</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Humility</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Power-resources -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Power-resources">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#wealth/material_possessions"/>
+        <untitled-ontology-8:description>Power through control of material and social resources</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Power–resources</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Stimulation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Stimulation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#a_varied_life"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#an_exciting_life/stimulating_experiences"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#daring/seeking_adventure"/>
+        <untitled-ontology-8:description>Excitement, novelty, and change</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Stimulation</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Tradition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Tradition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#devout/hold_religious_faith"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#respect_tradition/preserve_customs"/>
+        <untitled-ontology-8:description>Maintaining and preserving cultural, family or religious traditions</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Tradition</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#a_varied_life -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#a_varied_life">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>a varied life</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#choosing_your_own_goals_or_purposes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#choosing_your_own_goals_or_purposes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>choosing your own goals or purposes</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#equality_for_all -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#equality_for_all">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>equality for all</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#pleasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#pleasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>pleasure</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#privacy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#privacy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>privacy</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#protect_the_environment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#protect_the_environment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>protect the environment</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_justice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_justice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>social justice</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#unity_with_nature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#unity_with_nature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>unity with nature</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#world_at_peace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#world_at_peace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>world at peace</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#world_beauty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#world_beauty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>world beauty</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Benevolence–caring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Benevolence–caring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#family_security/safety_for_loved_ones"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#forgiving/willing_to_pardon"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#helpful/working_for_others_welfare"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#honest/genuine"/>
+        <untitled-ontology-8:description>Devotion to the welfare of in-group members</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Benevolence–caring</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Benevolence–dependability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Benevolence–dependability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#loyal/faithful_to_friends"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#responsible/dependable"/>
+        <untitled-ontology-8:description>Being a reliable and trustworthy member of the in-group</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Benevolence–dependability</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Conformity–interpersonal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Conformity–interpersonal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#honor_parents/show_respect"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#politeness/courtesy"/>
+        <untitled-ontology-8:description>Avoidance of upsetting or harming other people</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Conformity–interpersonal</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Conformity–rules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Conformity–rules">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#obedient/meet_obligations"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#self-discipline/resist_temptation"/>
+        <untitled-ontology-8:description>Compliance with rules, laws, and formal obligations</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Conformity–rules</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Power–dominance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Power–dominance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#authority/right_to_command"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_power/control_over_others"/>
+        <untitled-ontology-8:description>Power through exercising control over people</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Power–dominance</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Security–personal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Security–personal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#clean/neat/tidy"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#family_security/safety_for_loved_ones"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#healthy/_not_sick"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#reciprocating_favors/avoiding_indebtedness"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#sense_of_belonging/feeling_others_care_about_me"/>
+        <untitled-ontology-8:description>Safety in ones immediate environment</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Security–personal</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Security–societal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Security–societal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#national_security/nation_safe_from_enemies"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_order/societal_stability"/>
+        <untitled-ontology-8:description>Safety and stability in the wider society</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Security–societal</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Self-direction–action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Self-direction–action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#choosing_your_own_goals_or_purposes"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#privacy"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#independent/self-reliant"/>
+        <untitled-ontology-8:description>Freedom to determine ones own actions</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Self-direction–action</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Self-direction–thought -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Self-direction–thought">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#creativity/imagination"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#curious/interested"/>
+        <untitled-ontology-8:description>Freedom to cultivate ones own ideas and abilities</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Self-direction–thought</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Universalism–concern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Universalism–concern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#equality_for_all"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_justice"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#world_at_peace"/>
+        <untitled-ontology-8:description>Commitment to equality, justice and protection for all people</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Universalism–concern</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Universalism–nature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Universalism–nature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#protect_the_environment"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#unity_with_nature"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#world_beauty"/>
+        <untitled-ontology-8:description>Preservation of the natural environment</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Universalism–nature</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Universalism–tolerance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Universalism–tolerance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#HumanValue"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#broadminded/toleran"/>
+        <untitled-ontology-8:explainedBy rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#wisdom/mature_understanding"/>
+        <untitled-ontology-8:description>Acceptance and understanding of those who are different from oneself</untitled-ontology-8:description>
+        <untitled-ontology-8:valueName>Universalism–tolerance</untitled-ontology-8:valueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#accepting_my_portion/submitting_to_lifes_circumstances -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#accepting_my_portion/submitting_to_lifes_circumstances">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>accepting my portion/submitting to lifes circumstances</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#ambitious/aspiring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#ambitious/aspiring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>ambitious/aspiring</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#an_exciting_life/stimulating_experiences -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#an_exciting_life/stimulating_experiences">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>an exciting life/stimulating experiences</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#authority/right_to_command -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#authority/right_to_command">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>authority/right to command</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#broadminded/toleran -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#broadminded/toleran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>broadminded/toleran</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#capable/competent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#capable/competent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>capable/competent</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#clean/neat/tidy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#clean/neat/tidy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>clean/neat/tidy</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#creativity/imagination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#creativity/imagination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>creativity/imagination</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#curious/interested -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#curious/interested">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>curious/interested</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#daring/seeking_adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#daring/seeking_adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>daring/seeking adventure</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#devout/hold_religious_faith -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#devout/hold_religious_faith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>devout/hold religious faith&quot;</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#family_security/safety_for_loved_ones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#family_security/safety_for_loved_ones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>family security/safety for loved ones</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#forgiving/willing_to_pardon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#forgiving/willing_to_pardon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>forgiving/willing to pardon</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#healthy/_not_sick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#healthy/_not_sick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>healthy/ not sick</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#helpful/working_for_others_welfare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#helpful/working_for_others_welfare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>helpful/working for others welfare</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#honest/genuine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#honest/genuine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>honest/genuine</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#honor_parents/show_respect -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#honor_parents/show_respect">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>honor parents/show respect</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#humble/modest/self-effacing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#humble/modest/self-effacing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>humble/modest, self-effacing</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#independent/self-reliant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#independent/self-reliant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>independent/self-reliant</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#influential/having_an_impact_on_people_and_events -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#influential/having_an_impact_on_people_and_events">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>influential/having an impact on people and events</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#loyal/faithful_to_friends -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#loyal/faithful_to_friends">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>loyal/faithful to friends</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#national_security/nation_safe_from_enemies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#national_security/nation_safe_from_enemies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>national security/nation safe from enemies</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#obedient/meet_obligations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#obedient/meet_obligations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>obedient/meet obligations</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#politeness/courtesy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#politeness/courtesy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>politeness/courtesy</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#preserving_public_image/maintaining_face -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#preserving_public_image/maintaining_face">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>preserving public image/maintaining face</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#reciprocating_favors/avoiding_indebtedness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#reciprocating_favors/avoiding_indebtedness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>reciprocating favors/avoiding indebtedness</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#respect_tradition/preserve_customs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#respect_tradition/preserve_customs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>respect tradition/preserve customs</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#responsible/dependable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#responsible/dependable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>responsible/dependable</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#self-discipline/resist_temptation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#self-discipline/resist_temptation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>self-discipline/resist temptation</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#sense_of_belonging/feeling_others_care_about_me -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#sense_of_belonging/feeling_others_care_about_me">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>sense of belonging/feeling others care about me</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_order/societal_stability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_order/societal_stability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>social_order/societal_stability</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_power/control_over_others -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_power/control_over_others">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>social power/control over others</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_recognition/respect -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#social_recognition/respect">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>social recognition/respect</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#successful/achieving_goals -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#successful/achieving_goals">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>successful/achieving goals</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#wealth/material_possessions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#wealth/material_possessions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>wealth/material possessions</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#wisdom/mature_understanding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#wisdom/mature_understanding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/untitled-ontology-8#ValueItem"/>
+        <untitled-ontology-8:itemName>wisdom/mature understanding</untitled-ontology-8:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Derived_Link_VP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Derived_Link_VP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_LinkTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_LinkTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#benevelonce-caring_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#benevelonce-caring_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Benevolence–caring"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#benevelonce-caring_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#benevelonce-caring_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Benevolence–caring"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#conformity-rules_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#conformity-rules_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Conformity–rules"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#conformity-rules_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#conformity-rules_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Derived_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Conformity–rules"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#face_accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#face_accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Derived_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Face"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-dominance_accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-dominance_accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Derived_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Power–dominance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-dominance_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-dominance_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Power–dominance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-dominance_storage-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-dominance_storage-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Power–dominance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-resource_storage-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-resource_storage-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Storage_Limitation"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Power-resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-resources_accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#power-resources_accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Power-resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-personal_data-minimisation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-personal_data-minimisation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Data_Minimization"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Security–personal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-personal_integrity-and-confidentiality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-personal_integrity-and-confidentiality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Derived_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Integrity_and_Confidentiality"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Security–personal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-personal_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-personal_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Integrity_and_Confidentiality"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Security–personal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-societal_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-societal_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Security–societal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-societal_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#security-societal_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Security–societal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#self-direction-action_accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#self-direction-action_accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Derived_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Accuracy"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Self-direction–action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#self-direction-action_purpose-limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#self-direction-action_purpose-limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Derived_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Purpose_Limitation"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Self-direction–action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#universalism-concern_fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#universalism-concern_fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Fairness"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Universalism–concern"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#universalism-concern_lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#universalism-concern_lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Lawfulness"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Universalism–concern"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#universalism-concern_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#universalism-concern_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Value-Principle_Link"/>
+        <ValuesMapOntology:denotedLink_PV rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        <ValuesMapOntology:fromPrinciple rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Transparency"/>
+        <ValuesMapOntology:toHumanValue rdf:resource="http://www.semanticweb.org/trang/ontologies/2020/9/HumanValuesOntology#Universalism–concern"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Derived_Link"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Derived_Link_VP"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/GDPROntology#Direct_Link"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntology#Direct_Link_VP"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
