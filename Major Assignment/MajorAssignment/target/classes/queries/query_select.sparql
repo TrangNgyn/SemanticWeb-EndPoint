@@ -7,7 +7,7 @@ prefix VMO: <http://www.semanticweb.org/trang/ontologies/2020/9/ValuesMapOntolog
 SELECT *
 WHERE {
   ?link VMO:toHumanValue  ?human_value .
-  ?link		VMO:fromPrinciple ?principle .
+  ?link		VMO:fromPrinciple Fairness.
   ?link		VMO:denotedLink_PV ?link_type .
   
 }
